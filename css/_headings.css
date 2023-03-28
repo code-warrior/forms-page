@@ -8,10 +8,6 @@ h6 {
   text-align: center;
 }
 
-h1 {
-  color: var(--primary-color);
-}
-
 h2,
 h3 {
   padding: var(--vertical-padding) 0;
