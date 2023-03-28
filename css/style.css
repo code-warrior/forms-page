@@ -1,6 +1,5 @@
 body {
   width: calc(12 * var(--grid-unit));
-  height: 100vh;
   margin: 0 auto;
   color: var(--primary-color);
   font-family: 'IBM Plex Sans', sans-serif;
