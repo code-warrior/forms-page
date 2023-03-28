@@ -16,6 +16,10 @@ a:link {
 
 .cards-container a:hover {
   color: var(--link-color);
+  border-top-right-radius: var(--common-radius);
+  border-bottom-right-radius: var(--common-radius);
+  border-bottom-left-radius: var(--common-radius);
+  box-shadow: 4px 4px 4px var(--font-awesome-icon-color);
 }
 
 .cards-container a:active {
