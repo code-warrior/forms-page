@@ -1,0 +1,9 @@
+:root {
+  --grid-column: 60px;
+  --grid-gutter: 20px;
+  --grid-unit: calc(var(--grid-column) + var(--grid-gutter));
+
+  --light: 300;
+  --medium: 500;
+  --bold: 700;
+}
