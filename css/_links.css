@@ -1,16 +1,17 @@
 a:link {
   text-decoration: none;
+.cards-container a:link {
   color: var(--link-color);
 }
 
-a:visited {
+.cards-container a:visited {
   color: var(--link-color);
 }
 
-a:hover {
+.cards-container a:hover {
   color: var(--link-color);
 }
 
-a:active {
+.cards-container a:active {
   color: var(--link-color);
 }
