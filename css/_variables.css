@@ -6,4 +6,8 @@
   --light: 300;
   --medium: 500;
   --bold: 700;
+
+  --vertical-padding: 12px;
+
+  --primary-color: #fff;
 }
