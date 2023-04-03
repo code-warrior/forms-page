@@ -39,3 +39,16 @@ section:not(:first-of-type) {
   color: var(--font-awesome-icon-color);
   padding-top: calc(2 * var(--general-padding));
 }
+
+@media screen and (max-width: 860px) {
+  body {
+    width: auto;
+  }
+
+  .fa-github,
+  .fa-link,
+  .fa-file-pdf {
+    font-size: calc(2 * 1rem);
+    padding-top: calc(1 * var(--general-padding));
+  }
+}

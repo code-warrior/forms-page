@@ -25,3 +25,9 @@ a:link {
 .cards-container a:active {
   color: var(--link-color);
 }
+
+@media screen and (max-width: 860px) {
+  .cards-container a:hover {
+    box-shadow: none;
+  }
+}
