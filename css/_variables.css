@@ -12,7 +12,7 @@
   --general-padding: 20px;
 
   --primary-color: #333;
-  --font-awesome-icon-color: #b7859c;
+  --font-awesome-icon-color: rgb(81, 81, 147); /* #b7859c; */
   --link-color: #2f4f4f;
 
   --common-radius: 10px;
