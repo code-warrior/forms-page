@@ -5,6 +5,7 @@
 
 .cards-container > div {
   width: calc(3 * var(--grid-unit));
+  height: calc(3 * var(--grid-unit));
 }
 
 .cards-container > div > a {
