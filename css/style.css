@@ -1,10 +1,8 @@
+/* Font weights */
 :root {
   --grid-column: 60px;
   --grid-gutter: 20px;
   --grid-unit: calc(var(--grid-column) + var(--grid-gutter));
-  /* Font weights */
-  --light: 300;
-  --medium: 500;
   --vertical-padding: 12px;
   --general-padding: 20px;
   --primary-color: #333;
@@ -19,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: var(--medium);
+  font-weight: 500;
   text-align: center;
 }
 
@@ -103,7 +101,7 @@ body {
   margin: 0 auto;
   color: var(--primary-color);
   font-family: "IBM Plex Sans", sans-serif;
-  font-weight: var(--light);
+  font-weight: 300;
   background: #ebf4f5;
   background: linear-gradient(90deg, #ebf4f5 0%, #b3c5df 100%);
   background: -moz-linear-gradient(90deg, #ebf4f5 0%, #b3c5df 100%);

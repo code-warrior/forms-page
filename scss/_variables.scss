@@ -1,13 +1,14 @@
 $common-radius: 10px;
 
+/* Font weights */
+$light: 300;
+$medium: 500;
+
 :root {
   --grid-column: 60px;
   --grid-gutter: 20px;
   --grid-unit: calc(var(--grid-column) + var(--grid-gutter));
 
-  /* Font weights */
-  --light: 300;
-  --medium: 500;
   --vertical-padding: 12px;
   --general-padding: 20px;
 
