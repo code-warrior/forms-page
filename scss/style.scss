@@ -4,7 +4,7 @@
 @use 'cards' as *;
 
 body {
-  width: calc(12 * var(--grid-unit));
+  width: (12 * $grid-unit);
   margin: 0 auto;
   color: var(--primary-color);
   font-family: 'IBM Plex Sans', sans-serif;
@@ -30,7 +30,7 @@ ul {
 }
 
 ul li {
-  margin-left: var(--grid-gutter);
+  margin-left: $grid-gutter;
 }
 
 section:not(:first-of-type) {
@@ -47,7 +47,7 @@ section:not(:first-of-type) {
 
 @media screen and (max-width: 1080px) {
   body {
-    width: calc(10 * var(--grid-unit));
+    width: (10 * $grid-unit);
   }
 }
 

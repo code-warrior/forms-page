@@ -1,11 +1,13 @@
+@use 'variables' as *;
+
 .cards-container {
   display: flex;
   justify-content: space-between;
 }
 
 .cards-container > div {
-  width: calc(3 * var(--grid-unit));
-  height: calc(3 * var(--grid-unit));
+  width: (3 * $grid-unit);
+  height: (3 * $grid-unit);
 }
 
 .cards-container > div > a {

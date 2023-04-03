@@ -1,8 +1,4 @@
-/* Font weights */
 :root {
-  --grid-column: 60px;
-  --grid-gutter: 20px;
-  --grid-unit: calc(var(--grid-column) + var(--grid-gutter));
   --vertical-padding: 12px;
   --general-padding: 20px;
   --primary-color: #333;
@@ -65,8 +61,8 @@ a:link {
 }
 
 .cards-container > div {
-  width: calc(3 * var(--grid-unit));
-  height: calc(3 * var(--grid-unit));
+  width: 240px;
+  height: 240px;
 }
 
 .cards-container > div > a {
@@ -97,7 +93,7 @@ a:link {
   }
 }
 body {
-  width: calc(12 * var(--grid-unit));
+  width: 960px;
   margin: 0 auto;
   color: var(--primary-color);
   font-family: "IBM Plex Sans", sans-serif;
@@ -123,7 +119,7 @@ ul {
 }
 
 ul li {
-  margin-left: var(--grid-gutter);
+  margin-left: 20px;
 }
 
 section:not(:first-of-type) {
@@ -140,7 +136,7 @@ section:not(:first-of-type) {
 
 @media screen and (max-width: 1080px) {
   body {
-    width: calc(10 * var(--grid-unit));
+    width: 800px;
   }
 }
 @media screen and (max-width: 860px) {

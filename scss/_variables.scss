@@ -1,14 +1,17 @@
+@use "sass:math";
+
 $common-radius: 10px;
 
-/* Font weights */
+// Font weights
 $light: 300;
 $medium: 500;
 
-:root {
-  --grid-column: 60px;
-  --grid-gutter: 20px;
-  --grid-unit: calc(var(--grid-column) + var(--grid-gutter));
+// Grid-related
+$grid-column: 60px;
+$grid-gutter: math.div($grid-column, 3);
+$grid-unit: $grid-column + $grid-gutter;
 
+:root {
   --vertical-padding: 12px;
   --general-padding: 20px;
 
