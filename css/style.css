@@ -40,6 +40,12 @@ section:not(:first-of-type) {
   padding-top: calc(2 * var(--general-padding));
 }
 
+@media screen and (max-width: 1080px) {
+  body {
+    width: calc(10 * var(--grid-unit));
+  }
+}
+
 @media screen and (max-width: 860px) {
   body {
     width: auto;
