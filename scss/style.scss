@@ -1,4 +1,8 @@
 @use 'variables' as *;
+@use 'headings' as *;
+@use 'links' as *;
+@use 'cards' as *;
+
 body {
   width: calc(12 * var(--grid-unit));
   margin: 0 auto;
