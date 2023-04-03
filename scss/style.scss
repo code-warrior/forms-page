@@ -1,3 +1,4 @@
+@use 'variables' as *;
 body {
   width: calc(12 * var(--grid-unit));
   margin: 0 auto;
@@ -15,7 +16,7 @@ p:not(.cards-container > div > a > p),
 ul,
 .cards-container > div {
   background-color: rgba(255, 255, 255, .25);
-  border-radius: var(--common-radius);
+  border-radius: $common-radius;
 }
 
 p,
