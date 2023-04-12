@@ -6,7 +6,7 @@
 body {
   width: (12 * $grid-unit);
   margin: 0 auto;
-  color: var(--primary-color);
+  color: $primary-color;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: $light;
   background: hsla(186, 33%, 94%, 1);
