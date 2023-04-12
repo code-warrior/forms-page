@@ -41,7 +41,7 @@ section:not(:first-of-type) {
 .fa-link,
 .fa-file-pdf {
   font-size: calc(5 * 1rem);
-  color: var(--font-awesome-icon-color);
+  color: $font-awesome-icon-color;
   padding-top: calc(2 * $general-padding);
 }
 

@@ -21,7 +21,7 @@ a:link {
   border-top-right-radius: $common-radius;
   border-bottom-right-radius: $common-radius;
   border-bottom-left-radius: $common-radius;
-  box-shadow: 4px 4px 4px var(--font-awesome-icon-color);
+  box-shadow: 4px 4px 4px $font-awesome-icon-color;
 }
 
 .cards-container a:active {
