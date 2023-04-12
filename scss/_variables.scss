@@ -13,6 +13,8 @@ $grid-unit: $grid-column + $grid-gutter;
 
 // Breakpoints
 $desktop: (13 * $grid-unit) + (2 * $grid-gutter);
+$tablet: (10 * $grid-unit) + $grid-column;
+
 // Padding
 $vertical-padding: 12px;
 $general-padding: 20px;
