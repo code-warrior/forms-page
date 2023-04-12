@@ -26,7 +26,7 @@ ul,
 p,
 ul {
   text-align: left;
-  padding: var(--general-padding);
+  padding: $general-padding;
 }
 
 ul li {
@@ -42,7 +42,7 @@ section:not(:first-of-type) {
 .fa-file-pdf {
   font-size: calc(5 * 1rem);
   color: var(--font-awesome-icon-color);
-  padding-top: calc(2 * var(--general-padding));
+  padding-top: calc(2 * $general-padding);
 }
 
 @media screen and (max-width: 1080px) {
@@ -60,6 +60,6 @@ section:not(:first-of-type) {
   .fa-link,
   .fa-file-pdf {
     font-size: calc(2 * 1rem);
-    padding-top: calc(1 * var(--general-padding));
+    padding-top: calc(1 * $general-padding);
   }
 }
