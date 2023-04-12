@@ -32,7 +32,7 @@ a {
   }
 }
 
-@media screen and (max-width: $tablet) {
+@media (max-width: $tablet) {
   .cards-container a:hover {
     box-shadow: none;
   }

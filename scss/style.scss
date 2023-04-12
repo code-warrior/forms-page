@@ -50,13 +50,13 @@ section {
   padding-top: calc(2 * $general-padding);
 }
 
-@media screen and (max-width: $desktop) {
+@media (max-width: $desktop) {
   body {
     width: (10 * $grid-unit);
   }
 }
 
-@media screen and (max-width: $tablet) {
+@media (max-width: $tablet) {
   body {
     width: auto;
   }
