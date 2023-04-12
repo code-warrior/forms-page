@@ -12,10 +12,9 @@ $grid-gutter: math.div($grid-column, 3);
 $grid-unit: $grid-column + $grid-gutter;
 
 $vertical-padding: 12px;
+$general-padding: 20px;
 
 :root {
-  --general-padding: 20px;
-
   --primary-color: #333;
   --font-awesome-icon-color: rgb(81, 81, 147); /* #b7859c; */
   --link-color: #2f4f4f;

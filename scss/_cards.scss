@@ -29,7 +29,7 @@
 
   .cards-container p {
     margin: $vertical-padding 0;
-    padding: 0 0 calc(1 * var(--general-padding)) 0;
+    padding: 0 0 $general-padding 0;
   }
 
   .cards-container > div {
