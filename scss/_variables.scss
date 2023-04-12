@@ -11,6 +11,7 @@ $grid-column: 60px;
 $grid-gutter: math.div($grid-column, 3);
 $grid-unit: $grid-column + $grid-gutter;
 
+// Padding
 $vertical-padding: 12px;
 $general-padding: 20px;
 
