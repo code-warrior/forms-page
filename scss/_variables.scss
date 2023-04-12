@@ -11,6 +11,8 @@ $grid-column: 60px;
 $grid-gutter: math.div($grid-column, 3);
 $grid-unit: $grid-column + $grid-gutter;
 
+// Breakpoints
+$desktop: (13 * $grid-unit) + (2 * $grid-gutter);
 // Padding
 $vertical-padding: 12px;
 $general-padding: 20px;

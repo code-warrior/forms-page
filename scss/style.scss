@@ -45,7 +45,7 @@ section:not(:first-of-type) {
   padding-top: calc(2 * $general-padding);
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: $desktop) {
   body {
     width: (10 * $grid-unit);
   }
