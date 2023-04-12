@@ -2,30 +2,34 @@
 
 a {
   transition: 350ms;
+
+  &:link {
+    text-decoration: none;
+  }
 }
 
-a:link {
-  text-decoration: none;
-}
+.cards-container {
+  a {
+    &:link {
+      color: $link-color;
+    }
 
-.cards-container a:link {
-  color: $link-color;
-}
+    &:visited {
+      color: $link-color;
+    }
 
-.cards-container a:visited {
-  color: $link-color;
-}
+    &:hover {
+      color: $link-color;
+      border-top-right-radius: $common-radius;
+      border-bottom-right-radius: $common-radius;
+      border-bottom-left-radius: $common-radius;
+      box-shadow: 4px 4px 4px $font-awesome-icon-color;
+    }
 
-.cards-container a:hover {
-  color: $link-color;
-  border-top-right-radius: $common-radius;
-  border-bottom-right-radius: $common-radius;
-  border-bottom-left-radius: $common-radius;
-  box-shadow: 4px 4px 4px $font-awesome-icon-color;
-}
-
-.cards-container a:active {
-  color: $link-color;
+    &:active {
+      color: $link-color;
+    }
+  }
 }
 
 @media screen and (max-width: $tablet) {
