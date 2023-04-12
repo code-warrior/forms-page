@@ -9,15 +9,15 @@ a:link {
 }
 
 .cards-container a:link {
-  color: var(--link-color);
+  color: $link-color;
 }
 
 .cards-container a:visited {
-  color: var(--link-color);
+  color: $link-color;
 }
 
 .cards-container a:hover {
-  color: var(--link-color);
+  color: $link-color;
   border-top-right-radius: $common-radius;
   border-bottom-right-radius: $common-radius;
   border-bottom-left-radius: $common-radius;
@@ -25,7 +25,7 @@ a:link {
 }
 
 .cards-container a:active {
-  color: var(--link-color);
+  color: $link-color;
 }
 
 @media screen and (max-width: 860px) {
